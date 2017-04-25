@@ -11,7 +11,7 @@ Event.prototype.subscribe = function(fnc) {
 Event.prototype.unsubscribe = function(fnc) {
   var index = this._subscribers.findIndex(f => f === fnc);
   if (index !== -1) {
-    delete this._subscribers[index];
+    this._subscribers.splice(index, 1);
   }
 };
 
