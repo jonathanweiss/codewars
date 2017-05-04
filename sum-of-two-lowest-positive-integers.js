@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/solutions/javascript/me/best_practice
+// https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
 
 const sumTwoSmallestNumbers = numbers => (
     [...numbers]
