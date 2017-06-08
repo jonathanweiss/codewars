@@ -1,4 +1,4 @@
-// https://www.codewars.com/kata/excel-sheet-column-numbers/train/javascript/58ddf11dc19f092f3b00001c
+// https://www.codewars.com/kata/excel-sheet-column-numbers
 
 const titleToNumber = title => (
   title
